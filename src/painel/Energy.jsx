@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import './Energy.css'
-import Form from "../componentes/Form";
 import Display from "../componentes/Display";
+import Form from "../componentes/Form";
+import Button from "../componentes/Button";
 import Tabela from "../componentes/Tabela";
 export default class Energy extends Component {
     render() {
@@ -9,6 +10,7 @@ export default class Energy extends Component {
             <div className="energy">
                 <Display value="100"/>
                  <Form/>
+                 <Button/>
                  <Tabela/>
 
 
